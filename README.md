@@ -41,3 +41,23 @@ classDiagram
     Game --> Stages
     Map --> Player
     Map --> Stages
+```
+
+### Class Responsibilities
+- **`Main.java`:** Entry point; initializes Stages and starts the Game loop.
+- **`Game.java`:** Manages the core loop, UI rendering (banners, timer), and user input handling.
+- **`Map.java`:** Handles collision detection (penetration logic), object rendering, and interactions.
+- **`Player.java`:** Manages physics (velocity, gravity), state (jumping, grounded), and movement logic.
+- **`Stage.java`:** A configuration class that defines the unique rules (gravity, control scheme, clues) for each level.
+
+## 🛠️ Technologies
+- **Language:** Java
+- **Library:** StdDraw (Princeton) for 2D Graphics.
+- **Concepts:** OOP, Game Physics, Collision Detection.
+
+## 📄 Project Report
+For a deep dive into the implementation details and class diagrams, you can view the full report here:
+[📄 Read the Project Report (PDF)](./Report.pdf)
+
+---
+*Developed by Melih Efe Sonmez.*
