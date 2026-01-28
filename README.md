@@ -5,7 +5,7 @@
 This project is an Object-Oriented recreation of the Flash game *"This Is the Only Level"*, developed using **Java** and the **StdDraw** library. Unlike a standard platformer, the player loops through the same map layout, but each "Stage" introduces a new rule or physics mechanic.
 
 <p align="center">
-  <img src="gameplay-environment.png" alt="Game Environment" width="700">
+  <img src="images/gameplay-environment.png" alt="Game Environment" width="700">
   <br>
   <em>Figure 1: Game Environment with obstacles, spikes, and UI elements</em>
 </p>
@@ -57,7 +57,7 @@ classDiagram
 
 ## 📄 Project Report
 For a deep dive into the implementation details and class diagrams, you can view the full report here:
-[📄 Read the Project Report (PDF)](./Report.pdf)
+[📄 Read the Project Report (PDF)](./report/report.pdf)
 
 ---
 *Developed by Melih Efe Sonmez.*
